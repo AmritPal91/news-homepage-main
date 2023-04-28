@@ -8,11 +8,12 @@
 
 body {
   font-family: "Inter", sans-serif;
-  }
+}
 
 body p {
   font-size: 1.15rem;
   word-spacing: -0.87px;
+  line-height: 2
 }
 
 /* Container */
@@ -35,6 +36,10 @@ nav {
   opacity: 0.7;
 }
 
+.nav-item:hover {
+  font-weight: 500;
+}
+
 .navbar-mob {
   display: none;
 }
@@ -54,7 +59,6 @@ main {
 
 .exp-right {
   margin: 4% 0 0%;
-
 }
 
 .exp-right p {
@@ -124,7 +128,6 @@ main {
 .description {
   height: 62%;
   margin: 0 0 0 5%;
-
 }
 
 .description h2 {
@@ -149,7 +152,7 @@ main {
 
   .navbar-mob {
     display: block;
-    margin-bottom: 10%;
+    margin: -3.5% 0 12% 0;
   }
 
   /* Mobile Image Main  */
@@ -167,15 +170,6 @@ main {
   }
 
   /*   Sidebar Section */
-  .sidebarMenu {
-    height: 100%;
-    width: 70%;
-    position: relative;
-    margin-left: 30%;
-    background: #fff;
-    z-index: 2;
-    
-      }
 
   #menu-container {
     height: 100%;
@@ -187,35 +181,45 @@ main {
     left: 0;
     transform: translateX(100%);
     transition: transform 350ms ease-in-out;
-     
-      }
+  }
 
+  .sidebarMenu {
+    height: 100%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    background: #fff;
+    z-index: 2;
+  }
+
+  .menu {
+    list-style: none;
+    padding-top: 50%;
+  }
+
+  .menu li {
+    padding: 4.5% 0;
+    font-size: 1.4rem;
+  }
+
+  .menu li:hover {
+    font-weight: 500;
+  }
+
+  /* Animated Menu Button  */
   .sidebarIconToggle {
     height: 45px;
-    width: 50px;
+    width: 45px;
     margin-top: 2.2%;
     position: absolute;
     right: 8%;
     z-index: 5;
     cursor: pointer;
     transition: all 0.3s;
-     }
-
-  .menu {
-    list-style: none;
-    padding-top: 55%;
-     overflow:hidden;
-      }
-
-  .menu li {
-    padding: 10% 0;
-    font-size: 1.5rem;
-   
   }
 
   #openSidebarMenu:checked~#menu-container {
     transform: translateX(0%);
-    
   }
 
   .spinner {
