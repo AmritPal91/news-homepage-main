@@ -7,3 +7,14 @@ document.querySelector("#openSidebarMenu").addEventListener("click", () => {
     entireBody.style.overflowY = "scroll";
   }
 });
+
+//Lock Orientation ~ Full Screen must be engaged
+
+function lock (orientation){
+  let de = document.documentElement;
+  if(de.requestFullscreen){ de.requestFullscreen(); }
+  else if (de.mozRequestFullScreen){de.mozRequestFullScreen();}
+  else if (de.webkitRequestFullscreen){de.webkitRequestFullscreen();}
+  else if (de.msRequestFullscreen){de.msRequestFullscreen();}
+  screen.orientation.lock(orientation); 
+}
