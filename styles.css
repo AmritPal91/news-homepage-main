@@ -141,11 +141,8 @@ main {
   font-weight: 600;
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) and (orientation:landscape) {
-   body{
-    height:100vw;
-     transform: rotate(90deg);
-   }
+@media screen and (min-width: 360px) and (max-width: 767px){
+  
   /*  Navbar section */
   .navbar-desktop,
   .img-main,
