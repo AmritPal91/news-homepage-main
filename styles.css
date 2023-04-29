@@ -13,7 +13,7 @@ body {
 body p {
   font-size: 1.15rem;
   word-spacing: -0.87px;
-  line-height: 2
+  line-height: 1.5;
 }
 
 /* Container */
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item:hover {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .navbar-mob {
@@ -121,7 +121,7 @@ main {
 }
 
 .row-bottom img {
-  height: 85%;
+  height: 90%;
   width: 31.4%;
 }
 
@@ -141,7 +141,7 @@ main {
   font-weight: 600;
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px){
+@media screen  and (max-width: 767px){
   
   /*  Navbar section */
   .navbar-desktop,
@@ -276,6 +276,9 @@ main {
     margin: 3% 3.5%;
   }
 
+  .cols{
+    margin: 3% 0;
+  }
   .description h2 {
     font-size: 2.5rem;
   }
