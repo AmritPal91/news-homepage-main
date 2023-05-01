@@ -89,8 +89,8 @@ main {
   background: #000;
   color: #fff;
   padding: 2.3%;
-  width: 32%;
-  height: 95%;
+/*   width: 32%;
+  height: 95%; */
 }
 
 .side hr {
@@ -118,15 +118,21 @@ main {
 /* Row bottom */
 .row-bottom {
   margin: 4% 5.6% 0 6%;
+  }
+.cols{
+  margin: 9% 0 0  0;
 }
-
+/* .row-bottom img{
+   max-height: 100%;
+  max-width: 100%;
+} */
 .row-bottom img {
-  height: 90%;
-  width: 31.4%;
+ height: 135px;
+  width: 100px;
 }
 
 .description {
-  height: 62%;
+
   margin: 0 0 0 5%;
 }
 
@@ -141,8 +147,11 @@ main {
   font-weight: 600;
 }
 
-@media screen  and (max-width: 767px){
-  
+@media screen and (min-width:360px) and (max-width: 425px) {
+   /* Container */
+.container-custom {
+  margin: 5% 5% 5%;
+}
   /*  Navbar section */
   .navbar-desktop,
   .img-main,
@@ -255,15 +264,15 @@ main {
 
   /*   Side Section */
   .side {
-    margin: 17% 2.3% 3%;
-    padding: 5%;
-    width: 94%;
+    margin: 17% 3.5% 3%;
+    padding: 5%  7%;
+    width: fit-content;
   }
 
   .side h2 {
     font-size: 2.3rem;
     font-weight: 400;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     letter-spacing: 1px;
   }
 
@@ -276,14 +285,31 @@ main {
     margin: 3% 3.5%;
   }
 
-  .cols{
-    margin: 3% 0;
-  }
-  .description h2 {
+    .description h2 {
     font-size: 2.5rem;
   }
 
   .description h3 {
     font-size: 1.1rem;
+  }
+}
+ @media screen and (min-width:720px)and (max-width:1200px)and (orientation:landscape){
+
+   .nav-item {
+  letter-spacing: 1px;
+  margin-left: 1rem;
+ }
+   .side{
+   margin: 13% 2% 0;
+    padding: 5% 5%;
+    width: 96%;
+  }  
+  
+   .row-bottom img {
+  height: 125px;
+  width: 100px;
+}
+   .row-bottom {
+    margin: 3% 5.2%;
   }
 }
