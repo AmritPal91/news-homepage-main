@@ -117,15 +117,9 @@ main {
 
 /* Row bottom */
 .row-bottom {
-  margin: 4% 5.6% 0 6%;
+  margin: 4% 7% 0 6%;
   }
-.cols{
-  margin: 9% 0 0  0;
-}
-/* .row-bottom img{
-   max-height: 100%;
-  max-width: 100%;
-} */
+
 .row-bottom img {
  height: 135px;
   width: 100px;
@@ -282,7 +276,11 @@ main {
 
   /* Bottom Row */
   .row-bottom {
-    margin: 3% 3.5%;
+    margin: 3% 2.5%;
+  } 
+
+  .cols{
+   margin: 3% 0;
   }
 
     .description h2 {
@@ -305,11 +303,11 @@ main {
     width: 96%;
   }  
   
-   .row-bottom img {
-  height: 125px;
-  width: 100px;
-}
    .row-bottom {
     margin: 3% 5.2%;
   }
+   .cols{
+   margin: 3% 0 0 0;
+  }
+  
 }
