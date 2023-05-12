@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item:hover {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .navbar-mob {
@@ -336,10 +336,17 @@ main {
   font-size: 1.2rem;
 }
  }
-@media screen and (min-width: 1280px) and (max-width:1340px){
+@media screen and (min-width: 1280px) and (max-width:1351px){
   body p{
-     font-size: 1rem;
+     font-size: 1.12rem;
 }
+  .exp-right{
+   margin-top: 5.3%;
+  }
+  .exp-right p{
+   font-size: 1.09rem;
+    line-height: 1.7;
+  }
   .description h2 {
     font-size: 2.6rem;
 }
