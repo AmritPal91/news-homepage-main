@@ -337,13 +337,13 @@ main {
  }
 @media screen and (min-width: 1280px) and (max-width:1352px){
   body p{
-     font-size: 1.06rem;
+     font-size: 1.05rem;
 }
   .exp-right{
    margin-top: 5.3%;
   }
   .exp-right p{
-   font-size: 1rem;
+   font-size: 1.05rem;
     line-height: 1.7;
   }
   .description h4 {
