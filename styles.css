@@ -79,7 +79,7 @@ main {
   border-radius: 0;
   font-size: 1rem;
   letter-spacing: 5px;
-  margin: 7% 0 0 0%;
+  margin: 8% 0 0 0%;
   padding: 3.7% 9%;
   text-transform: uppercase;
 }
@@ -93,12 +93,12 @@ main {
 
 .side hr {
   background: #fff;
-  margin: 8% 0;
+  margin: 7.5% 0;
 }
 
-.side h5 {
+.side h3 {
   font-weight: 800;
-  letter-spacing: 1.5px;
+  font-size: 1.5rem;
 }
 
 .side h2 {
@@ -128,13 +128,13 @@ main {
   margin: 0 0 0 5%;
 }
 
-.description h2 {
+.description h4 {
   color: hsl(233, 8%, 79%);
   font-weight: 600;
   font-size: 2.2rem;
 }
 
-.description h3 {
+.description h5 {
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -264,13 +264,13 @@ main {
 
   .side h2 {
     font-size: 2.3rem;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 7%;
     letter-spacing: 1px;
   }
 
-  .side h5 {
-    letter-spacing: 0px;
+  .side h3 {
+    font-size: 1.2rem;
   }
 
   .side p{
@@ -286,24 +286,23 @@ main {
    margin: 3% 0;
   }
 
-    .description h2 {
+    .description h4 {
     font-size: 2.5rem;
   }
 
-  .description h3 {
+  .description h5 {
     font-size: 1.1rem;
   }
 }
- @media screen and (min-width:720px)and (max-width:1262px)and (orientation:landscape){
+ @media screen and (min-width:767px)and (max-width:1262px){
   
    .nav-item {
   letter-spacing: 1px;
   margin-left: 1rem;
  }
    .heading-left {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
      letter-spacing: 0px;
-/*      line-height: 1; */
    }
    .exp-right p {
   font-size: 0.95rem;
@@ -328,32 +327,32 @@ main {
   width: 95px;
 }
      
-.description h2 {
+.description h4 {
     font-size: 2.6rem;
 }
 
-.description h3 {
+.description h5 {
   font-size: 1.2rem;
 }
  }
 @media screen and (min-width: 1280px) and (max-width:1351px){
   body p{
-     font-size: 1.12rem;
+     font-size: 1.06rem;
 }
   .exp-right{
    margin-top: 5.3%;
   }
   .exp-right p{
-   font-size: 1.09rem;
+   font-size: 1rem;
     line-height: 1.7;
   }
-  .description h2 {
+  .description h4 {
     font-size: 2.6rem;
 }
-  .description h3 {
+  .description h5 {
   font-size: 1.2rem;
 }
-  .side h5 {
-    letter-spacing: 0px;
+  .side h3 {
+    font-size: 1.3rem;
   }
 }
