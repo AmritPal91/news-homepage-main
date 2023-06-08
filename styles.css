@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
-
+/* PC View */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -139,6 +139,7 @@ main {
   font-weight: 600;
 }
 
+/* Mobile View */
 @media screen and (min-width:360px) and (max-width: 425px) {
    /* Container */
 .container-custom {
@@ -294,6 +295,8 @@ main {
     font-size: 1.1rem;
   }
 }
+
+/* Tab View */
  @media screen and (min-width:767px)and (max-width:1262px){
   
    .nav-item {
@@ -335,6 +338,8 @@ main {
   font-size: 1.2rem;
 }
  }
+
+/* Laptop View */
 @media screen and (min-width: 1280px) and (max-width:1352px){
   body p{
      font-size: 1.05rem;
