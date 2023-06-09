@@ -340,7 +340,7 @@ main {
  }
 
 /* Laptop View */
-@media screen and (min-width: 1280px) and (max-width:1352px){
+@media screen and (min-width: 1280px) and (max-width:1366px){
   body p{
      font-size: 1.05rem;
 }
