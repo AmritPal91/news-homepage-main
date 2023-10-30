@@ -140,7 +140,7 @@ main {
 }
 
 /* Mobile View */
-@media screen and (min-width:360px) and (max-width: 425px) {
+@media (max-width: 480px) {
    /* Container */
 .container-custom {
   margin: 5% 5% 5%;
@@ -297,7 +297,7 @@ main {
 }
 
 /* Tab View */
- @media screen and (min-width:767px)and (max-width:1262px){
+ @media (max-width:1262px){
   
    .nav-item {
   letter-spacing: 1px;
